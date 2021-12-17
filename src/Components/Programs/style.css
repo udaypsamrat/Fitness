@@ -1,0 +1,241 @@
+.programs-top h1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  color: green;
+  font-weight: 400;
+}
+
+.programs-buttom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.programs-equipment {
+  padding: 20px;
+}
+
+.programs-equipment h3 {
+  color: #73328e;
+  /* margin-left: 20px; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+}
+.programs-equipment ul li {
+  list-style: none;
+  color: #35393dcc;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.programs-lifestyle {
+  padding: 20px;
+}
+.programs-lifestyle h3 {
+  color: #73328e;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.programs-lifestyle ul li {
+  list-style: none;
+  color: #35393dcc;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.programs-services {
+  padding: 20px;
+}
+
+.programs-services h3 {
+  color: #73328e;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.programs-services ul li {
+  list-style: none;
+  color: #35393dcc;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.conaiter-info {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  color: #73328e;
+}
+
+.partnership h2 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  margin-top: 15px;
+}
+
+.p-discounts {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.offer-visa h3 {
+  margin: 0;
+  padding: 0;
+  margin-top: -40px;
+  color: #73328e;
+}
+
+.offer-visa img {
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.offer-visa ul li {
+  margin: 10px;
+}
+
+.offer-rupay h3 {
+  margin: 0;
+  padding: 0;
+  margin-top: -40px;
+  color: #73328e;
+}
+
+.offer-rupay img {
+  margin-left: 20px;
+}
+
+.offer-rupay ul li {
+  margin: 10px;
+}
+
+.offer-mastercard h3 {
+  margin-top: 20px;
+  padding: 0;
+  color: #73328e;
+}
+
+.offer-mastercard ul li {
+  margin: 10px;
+}
+
+.offer-icicibank h3 {
+  margin-top: -30px;
+  color: #73328e;
+}
+
+.offer-icicibank ul li {
+  margin: 10px;
+}
+
+.offer-icicibank img {
+  margin: 0;
+}
+
+.offer-yesbank img {
+  width: 250px;
+  height: 100px;
+}
+
+.offer-yesbank h3 {
+  margin-top: 20px;
+  color: #73328e;
+}
+
+.offer-yesbank ul li {
+  margin: 10px;
+}
+
+.offer-kotakbank img {
+  width: 250px;
+  height: 200px;
+}
+
+.offer-kotakbank h3 {
+  margin-top: 0px;
+  color: #73328e;
+}
+
+.offer-kotakbank ul li {
+  margin: 10px;
+}
+
+@media (max-width: 1840px) {
+  .p-discounts {
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .programs-buttom {
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+  }
+  .programs-equipment {
+    text-align: center;
+    align-items: center;
+  }
+
+  .programs-lifestyle {
+    text-align: center;
+    align-items: center;
+  }
+  .programs-services {
+    text-align: center;
+    align-items: center;
+  }
+  .p-discounts {
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 1040px) {
+  .programs-buttom {
+    flex-direction: column;
+  }
+  .programs-equipment {
+    text-align: center;
+    align-items: center;
+  }
+
+  .programs-lifestyle {
+    text-align: center;
+    align-items: center;
+  }
+  .programs-services {
+    text-align: center;
+    align-items: center;
+  }
+
+  .p-discounts {
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+}

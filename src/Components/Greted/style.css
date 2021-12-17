@@ -1,0 +1,308 @@
+.fit {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fit-left {
+  flex: 1;
+  padding: 40px;
+  margin: 120px;
+  width: 554.88px;
+  height: 400.73px;
+  background-color: #666666;
+}
+
+.fit-right {
+  padding: 20px;
+}
+
+.fit-left h4 {
+  font-size: 28px;
+  font-weight: 300;
+  color: #ffff;
+}
+
+.fit-left p {
+  color: #ffff;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.fit-left button {
+  margin-top: 20px;
+  background-color: #fc221c;
+  width: 200px;
+  height: 70px;
+  color: #ffff;
+  font-size: 18px;
+}
+
+.fit-right img {
+  flex: 1;
+  margin-top: -40px;
+  margin-left: 30px;
+  width: 500px;
+  height: 750px;
+}
+
+.navbar-reviews {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+/* 
+.navbar-reviews {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  justify-content: center;
+} */
+
+.great h2 {
+  color: #fc221c;
+  font-size: 40px;
+  font-weight: 300;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.navbar-reviews p {
+  margin-top: 40px;
+  margin-left: 30px;
+  font-size: 18px;
+  color: black;
+}
+
+.navbar-reviews samp {
+  margin-left: 50px;
+  font-size: 20px;
+  color: #fc221c;
+}
+
+/* .reviews-right p {
+  margin-right: -50px;
+} */
+@media (max-width: 1240px) {
+  .fit {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .fit-left {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 554.88px;
+    height: 500.73px;
+  }
+  .fit-right {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+  }
+
+  .fit-right img {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 450px;
+    height: 600px;
+  }
+  .navbar-reviews {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .fit-left h1 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .fit-left p {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .fit-left button {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 1040px) {
+  .fit {
+    flex-direction: column;
+  }
+
+  .fit-left {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    width: 554.88px;
+    height: 450.73px;
+  }
+
+  .fit-right {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .fit-right img {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    height: 400px;
+  }
+
+  .great h2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+  }
+
+  .navbar-reviews {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 880px) {
+  .fit-left {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15%;
+    width: 454.88px;
+    height: 600.73px;
+  }
+  .fit-left h1 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 35px;
+  }
+  .fit-left p {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .fit-left button {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .fit-left p {
+    color: #ffff;
+    margin-top: 20px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 740px) {
+  .fit-left {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .fit-left h1 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .fit-left p {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .fit-left button {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .fit-left {
+    flex: 1;
+    padding: 40px;
+    margin: 120px;
+    width: 300px;
+    height: 400.73px;
+    background-color: #666666;
+  }
+  .fit-left {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .fit-left h1 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .fit-left p {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .fit-left button {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .fit-left {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .fit-left h1 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .fit-left p {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .fit-left button {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+}
